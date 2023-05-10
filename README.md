@@ -76,3 +76,13 @@ $ node examples/default-logger.js
 [2]: https://github.com/ivanmarban/winston-telegram/tree/1.x
 [3]: https://github.com/ivanmarban/winston-telegram/tree/master/examples
 [4]: https://core.telegram.org/bots/api#formatting-options
+
+## Publish package
+
+```
+npm init --scope=@hungtranit
+npm login
+Publish the package:
+npm publish
+```
+

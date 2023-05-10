@@ -1,11 +1,11 @@
 {
-  "name": "winston-telegram",
-  "description": "A Telegram transport for winston",
+  "name": "@hungtranit/winston-telegram",
   "version": "2.6.1",
+  "description": "A Telegram transport for winston",
   "author": "Ivan Marban",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivanmarban/winston-telegram.git"
+    "url": "git+https://github.com/ivanmarban/winston-telegram.git"
   },
   "bugs": {
     "url": "https://github.com/ivanmarban/winston-telegram/issues"
@@ -52,5 +52,11 @@
     "lint": "eslint lib test examples --color",
     "format": "prettier-standard 'lib/**/*.js' 'test/**/*.js' 'examples/**/*.js'",
     "test": "nyc --reporter=text --reporter=html --reporter=lcovonly mocha"
+  },
+  "homepage": "https://github.com/ivanmarban/winston-telegram#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
